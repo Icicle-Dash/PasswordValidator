@@ -28,3 +28,15 @@ if valid1:
     print("Password is valid")
 else:
     print("Password is not valid")
+
+#Checks if the password has a number
+valid2 = False
+for letter in password:
+    if letter.isdigit():
+      valid2 = True
+
+if valid2:
+    print("Password is valid")
+else:
+    print("Password is not valid")
+
